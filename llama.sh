@@ -20,8 +20,8 @@ N_SHARD_DICT["30B"]="3"
 N_SHARD_DICT["65B"]="7"
 
 echo "Downloading tokenizer"
-#wget ${PRESIGNED_URL}/tokenizer.model -O ${TARGET_FOLDER}/tokenizer.model
-#wget ${PRESIGNED_URL}/tokenizer_checklist.chk -O ${TARGET_FOLDER}/tokenizer_checklist.chk
+wget ${PRESIGNED_URL}/tokenizer.model -O ${TARGET_FOLDER}/tokenizer.model
+wget ${PRESIGNED_URL}/tokenizer_checklist.chk -O ${TARGET_FOLDER}/tokenizer_checklist.chk
 
 (cd ${TARGET_FOLDER} && md5sum -c tokenizer_checklist.chk)
 arrs=(${MODEL_SIZE//,/ })
