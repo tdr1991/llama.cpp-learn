@@ -2,7 +2,7 @@
 #### 下载llama模型
 运行 llama.sh 脚本进行下载，脚本参考 https://github.com/shawwn/llama-dl
 - 主要参数修改  
-PRESIGNED_URL：模型下载的地址，最好在官网申请，可选网络泄露版 https://ipfs.io/ipfs/Qmb9y5GCkTG7ZzbBWMu2BXwMkzyCKcUjtEKPpgdZ7GEFKm  
+PRESIGNED_URL：模型下载的地址，最好在官网申请，可选网络泄露版 https://ipfs.io/ipfs/Qmb9y5GCkTG7ZzbBWMu2BXwMkzyCKcUjtEKPpgdZ7GEFKm，测试过7B、13B,7B的md5不对，换成 https://agi.gpt4.org/llama/LLaMA 下载  
 MODEL_SIZE：需下载的模型，逗号（，）分割  
 TARGET_FOLDER：模型存放目录
 
